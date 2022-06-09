@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+  margin: auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-to {
+  color: #20a8b4;
+}
+
+.code {
+  color: #ff5c0f;
+}
+
+.learning-to-code {
+  color: #ff5c0f;
+}
+
+.header--nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header--nav ul:hover {
+  color: #ff5c0f;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  padding: 4px;
+  font-weight: bold;
+}
+
+li a {
+  color: #000;
+}
+
+button {
+  padding: 12px;
+  background-color: #20a8b4;
+  border-radius: 12px;
+  border-style: none;
+  display: block;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #ff5c0f;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header--nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+  }
+}
